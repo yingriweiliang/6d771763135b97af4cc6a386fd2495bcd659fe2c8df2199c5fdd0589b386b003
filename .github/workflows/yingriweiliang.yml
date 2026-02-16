@@ -3,7 +3,8 @@ name: yingriweiliang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 3/6 * * *'
+    - cron: '44 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: yingriweiliang
         env:
-          kql00: ${{ secrets.kql00 }}
+          dtp715: ${{ secrets.dtp715 }}
         run: |
-          echo $kql00 | jq -r .bzmka922 | /bin/bash
-          echo $ubw7 | jq -r .o32 | /bin/bash
-          echo $ro6 | jq -r .iae2446 | /bin/bash
-          echo $le6 | jq -r .b947 | /bin/bash
+          echo $dtp715 | jq -r .s35533 | /bin/bash
+          echo $ciet6 | jq -r .pnxkm75127 | /bin/bash
+          echo $avl03 | jq -r .y4 | /bin/bash
+          echo $xghuo9101 | jq -r .wsv95641 | /bin/bash
+          echo $jmdrx846 | jq -r .jsz5 | /bin/bash
 
