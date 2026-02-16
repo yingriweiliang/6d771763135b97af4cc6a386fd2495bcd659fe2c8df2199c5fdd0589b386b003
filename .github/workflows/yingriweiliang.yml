@@ -1,0 +1,21 @@
+name: yingriweiliang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yingriweiliang
+        env:
+          kql00: ${{ secrets.kql00 }}
+        run: |
+          echo $kql00 | jq -r .bzmka922 | /bin/bash
+          echo $ubw7 | jq -r .o32 | /bin/bash
+          echo $ro6 | jq -r .iae2446 | /bin/bash
+          echo $le6 | jq -r .b947 | /bin/bash
+
